@@ -1,10 +1,5 @@
 const request = require('request')
 
-// update forecast string to include new data
-// commit changes
-// push to github/heroku
-// test work
-
 const forecast = (latitude, longitude, callback) => {
     const url = 'http://api.weatherstack.com/current?access_key=3900f0f1b1f79afab75c64497845c2d6&query=' + latitude + ',' + longitude + '&units=f'
 
